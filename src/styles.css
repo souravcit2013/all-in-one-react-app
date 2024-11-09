@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  font-size: 14px;
+  font-family: monospace;
+  font-weight: 200;
+  letter-spacing: 2px;
+}

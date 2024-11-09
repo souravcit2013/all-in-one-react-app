@@ -12,8 +12,8 @@ const Todo = () => {
     }, [dispatch])
     
     return (<>
-        {!loading && !error && data?.map(({ title = '', completed }) => <>
-            <span>{title}</span><br />
+        {!loading && !error && data?.map(({ title = '', id='' }) => <>
+            <span>{`${id} - ${title.toUpperCase()}`}</span><br />
         </>)}
     </>)
 }
